@@ -97,4 +97,4 @@ custom_aspect_ratio_2=1196:879 ; 598:293 @ 10.74, Manbow 2
 [SamCoupe]
 custom_aspect_ratio_1=41:33    ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=38:29    ; 608:232 @ 10.74, Small Border
-custom_aspect_ratio_2=41:20    ; 656:192 @ 10.74, Wide Border
+;custom_aspect_ratio_2=41:20   ; 656:192 @ 10.74, Wide Border
