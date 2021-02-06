@@ -12,3 +12,9 @@ https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, turned i
 https://pineight.com/mw/?title=Dot_clock_rates - various pixel clocks
 
 http://www.geocities.ws/podernixie/htpc/modes-en.html - more pixel clocks and information
+
+https://misterfpga.org/viewtopic.php?f=31&t=1899 - morf77's aspect ratio calculator discussion thread on MiSTer FPGA forums
+
+https://misterfpga.org/viewtopic.php?f=31&t=1863 - dfilskov's thread with additional aspect ratios on MiSTer FPGA forums
+
+https://misterfpga.org/viewtopic.php?f=31&t=1991 - my thread for this project on MiSTer FPGA forums
