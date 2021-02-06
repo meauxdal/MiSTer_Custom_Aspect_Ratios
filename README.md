@@ -13,6 +13,8 @@ Some especially wide aspect ratios have issues with video_mode=12 (1920x1440@60,
 
 **Notes**
 
+The relevant .ini file must be saved before the core is loaded or the custom aspect ratios will not appear. If you use 2 custom aspect ratios, make sure one is labeled custom_aspect_ratio_1 and the other custom_aspect_ratio_2 to ensure both are selectable.
+
 These ratios have been generated using mostly default core settings. Settings that influence resolution and aspect ratio are commented when possible.
 
 Not all ratios have been tested, especially those at 1080p and 1200p.
