@@ -17,7 +17,9 @@ The relevant .ini file must be saved before the core is loaded or the custom asp
 
 Custom aspect ratios only work in cores that have had the function enabled in the framework.
 
-These ratios have been generated using mostly default core settings. Settings that influence resolution and aspect ratio are commented when possible.
+These ratios have been generated using mostly default core settings. Settings that influence resolution and aspect ratio are commented when possible. 
+
+For consoles, assume NTSC for now. PAL games may need special consideration depending on core.
 
 Not all ratios have been tested, especially those at 1080p and 1200p.
 
