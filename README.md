@@ -13,12 +13,12 @@ Check the .txt file for your desired default video_mode (720p.txt for video_mode
 
 ```
 video_mode=1920,48,32,80,1200,3,6,26,154128
-1920x1200@60Hz
+; 1920x1200@60Hz
 ```
 
 ```
 video_mode=1600,64,192,304,1200,1,3,46,162000
-1600x1200@60Hz
+; 1600x1200@60Hz
 ```
 
 There are comments indicating core video settings, pixel clocks, resolutions, and relevant games. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom aspect ratios per core in addition to 2 global ratios (with each .ini file having its own set), so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
