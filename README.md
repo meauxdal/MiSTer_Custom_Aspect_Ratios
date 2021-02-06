@@ -9,7 +9,7 @@ There are comments indicating core video settings, pixel clocks, resolutions, an
 
 **Issues**
 
-Some especially wide aspect ratios have issues with video_mode=12 (1920x1440@60, or 1440p.txt here) to exceeding 1920 pixels in width. If you attempt to set a custom aspect ratio that exceeds the horizontal resolution, you may see a resolution change. You can use a custom video_mode for ratios that exceed this resolution, but they will likely not work with the default video_mode=12, at least on an LCD display. 
+Some especially wide aspect ratios have issues with video_mode=12 (1920x1440@60, or 1440p.txt here) due to exceeding 1920 pixels in width. If you attempt to set a custom aspect ratio that exceeds the horizontal resolution, you may see a resolution change. You can use a custom video_mode for ratios that exceed this resolution, but they will likely not work with the default video_mode=12, at least on an LCD display. 
 
 **Notes**
 
