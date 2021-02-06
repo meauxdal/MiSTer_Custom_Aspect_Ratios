@@ -1,5 +1,5 @@
 # MiSTer_Custom_Aspect_Ratios
-Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform.
+Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use with vscale=1 for the purpose of achieving both vertical and horizontal integer aspect scaling, minimizing aspect ratio error when possible.
 
 Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 1200p.txt, 1440p.txt). Copy the core header and desired ratios to MiSTer.ini or an alt .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
 
