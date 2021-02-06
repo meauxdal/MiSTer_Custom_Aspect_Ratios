@@ -90,7 +90,7 @@ custom_aspect_ratio_2=100:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type
 [Minimig]
 ;Video area by: Blank
 custom_aspect_ratio_1=2:1        ; 864:216 @ 14.32
-custom_aspect_ratio_1=4:3        ; 900:270 @ 14.32, MegaAGS
+custom_aspect_ratio_2=4:3        ; 900:270 @ 14.32, MegaAGS
 
 [MSX]
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74 (thin)
@@ -100,4 +100,4 @@ custom_aspect_ratio_2=897:605    ; 598:242 @ 10.74 (wide)
 [SamCoupe]
 custom_aspect_ratio_1=82:55      ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
-custom_aspect_ratio_2=41:21      ; 656:192 @ 10.74, Wide Border
+;custom_aspect_ratio_2=41:21     ; 656:192 @ 10.74, Wide Border
