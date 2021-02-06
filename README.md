@@ -7,12 +7,11 @@ These ratios are intended for use along with vscale=1 in order to avoid inconsis
 
 Set vscale=1 either globally or for the relevant core in MiSTer.ini or an alt .ini file.
 
-Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 1440p.txt). Copy the core header and desired ratios to the .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
+Check the .txt file for your desired default video_mode (720p.txt for video_mode=0, 1080p.txt for video_mode=8, 1440p.txt for video_mode=12). Copy the core header and desired ratios to the .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
 
 1200p.txt is intended for custom video_modes. Two examples are given below:
 
 ```
-
 video_mode=1920,48,32,80,1200,3,6,26,154128
 1920x1200@60Hz
 ```
