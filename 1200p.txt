@@ -87,8 +87,8 @@ custom_aspect_ratio_2=96:77      ; 360:231 @ 7.383, Overscan Hidden, R-Type
 
 [Minimig]
 ;Video area by: Blank
-custom_aspect_ratio_1=8:5        ; 864:216 @ 14.32
-custom_aspect_ratio_2=5:3        ; 900:270 @ 14.32, MegaAGS
+;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32 (not working)
+;custom_aspect_ratio_2=5:3       ; 900:270 @ 14.32, MegaAGS (not working)
 
 [MSX]
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
