@@ -35,7 +35,7 @@ Custom aspect ratios only work in cores that have had the function enabled in th
 
 These ratios have been generated using mostly default core settings. Settings that influence resolution and aspect ratio are commented when possible.
 
-For consoles, assume NTSC for now. PAL games may need special consideration depending on core.
+For consoles, assume NTSC for now. PAL modes may need special consideration depending on core.
 
 Not all ratios have been tested, especially those at 1080p and 1200p.
 
