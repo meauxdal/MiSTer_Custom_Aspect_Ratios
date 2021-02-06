@@ -5,9 +5,9 @@ These ratios are intended for use along with vscale=1 in order to avoid inconsis
 
 **Instructions**
 
-Set vscale=1 either globally or for the relevant core in the .ini file.
+Set vscale=1 either globally or for the relevant core in MiSTer.ini or an alt .ini file.
 
-Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 1200p.txt, 1440p.txt). Copy the core header and desired ratios to MiSTer.ini or an alt .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
+Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 1200p.txt, 1440p.txt). Copy the core header and desired ratios to the .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
 
 There are comments indicating core video settings, pixel clocks, resolutions, and relevant games. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom resolutions per core (with each .ini file having its own set), so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
 
