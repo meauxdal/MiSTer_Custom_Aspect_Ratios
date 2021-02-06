@@ -5,7 +5,7 @@ Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 12
 
 There are comments indicating core video settings, pixel clocks, resolutions, and relevant games, so be sure to check those out to see which ones you need. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom resolutions, so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
 
-**Reources**
+**Resources**
 
 https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, turned into a web app by morfeus_77
 
