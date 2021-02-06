@@ -21,7 +21,7 @@ Most ratios were calculated using morf77's online aspect ratio calculator based 
 
 **Resources**
 
-https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, turned into a web app by morfeus_77
+https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, turned into a web app by morf77
 
 https://pineight.com/mw/?title=Dot_clock_rates - various pixel clocks
 
