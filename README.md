@@ -5,7 +5,7 @@ These ratios are intended for use along with vscale=1 in order to avoid inconsis
 
 **Instructions**
 
-Set vscale=1 either globally or for the relevant core.
+Set vscale=1 either globally or for the relevant core in the .ini file.
 
 Check the .txt file for your desired default video_mode (720p.txt, 1080p.txt, 1200p.txt, 1440p.txt). Copy the core header and desired ratios to MiSTer.ini or an alt .ini file and then set the ratio by adjusting the Aspect Ratio within the core.
 
