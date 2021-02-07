@@ -1,7 +1,10 @@
 ; ** CONSOLE **
 
+[Astrocade]
+custom_aspect_ratio_1=30:23      ; 180:230 @ 3.580, 10:6 PAR
+
 [Atari2600]
-;VBlank: Regenerate
+;VBlank: Regenerate, 3.58 MHz pixel clock
 custom_aspect_ratio_1=384:287    ; 160:205, BIOS
 custom_aspect_ratio_2=960:707    ; 160:202, most games
 ;custom_aspect_ratio_2=80:69     ; 160:230, Air Raid
@@ -32,6 +35,9 @@ custom_aspect_ratio_2=960:707    ; 160:202, most games
 [Atari5200]
 custom_aspect_ratio_1=89:72      ; 356:240 @ 7.160
 
+[AY-3-8500]
+custom_aspect_ratio_1=553:412    ; 237:206 @ 5.370, 7:6 PAR
+
 [Colecovision]
 ;Aspect Ratio: Original for 1:1 PAR
 ;custom_aspect_ratio_1=32:21     ; 256:192 (2048:1344, wider than 1920)
@@ -60,6 +66,9 @@ custom_aspect_ratio_2=25:21      ; 320:224 (wide)
 [NES]
 custom_aspect_ratio_1=4:3        ; 256:224
 
+[Odyssey2]
+custom_aspect_ratio_1=161:90     ; 368:240 @ 5.370, 7:6 PAR
+
 [SMS]
 ;Aspect Ratio: Original, Border: Off for 1:1 PAR in SMS mode (need 256/248 width fix commits)
 ;Aspect Ratio: Original for 4:3 PAR in Game Gear mode
@@ -68,8 +77,8 @@ custom_aspect_ratio_1=4:3        ; 256:224
 ;custom_aspect_ratio_2=31:21     ; 248:192, SMS, Border Off (1984:1344, wider than 1920) (BG: Cut after 256/248 width fix commits)
 ;custom_aspect_ratio_2=282:239   ; 282:239, SMS, Border On, square PAR (obsolete after 256/248 width fix commits)
 ;custom_aspect_ratio_2=329:239   ; 282:239, SMS, Border On (wider than 1920)
-custom_aspect_ratio_1=10:9       ; 160:144, Game Gear, square PAR
-custom_aspect_ratio_2=11:9       ; 160:144, Game Gear, wider PAR
+custom_aspect_ratio_1=10:9       ; 160:144, Game Gear, 10:10 PAR
+custom_aspect_ratio_2=11:9       ; 160:144, Game Gear, 11:10 PAR
 
 [SNES]
 custom_aspect_ratio_1=4:3        ; 256:224, most games
@@ -85,10 +94,22 @@ custom_aspect_ratio_2=100:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type
 ;custom_aspect_ratio_2=144:121   ; 360:242 @ 7.383, Overscan Visible, R-Type
 ;custom_aspect_ratio_2=162:121   ; 540:242 @ 10.74, Overscan Visible, Sherlock Holmes Consulting Detective
 
+[Vectrex]
+custom_aspect_ratio_1=540:719    ; 540:719, 2:2 PAR
+
 ; ** COMPUTER **
+
+[AtariST]
+custom_aspect_ratio_1=1600:1344  ; 1600:224 (testing)
+
+[C64]
+custom_aspect_ratio_1=1616:1255  ; 404:251, NTSC, 4:5 PAR
+custom_aspect_ratio_2=37:28      ; 370:280, PAL, 5:5 PAR
 
 [Minimig]
 ;Video area by: Blank
+custom_aspect_ratio_1=1508:1205  ; 754:241 @ 14.32, NTSC, 2:5 PAR
+custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR
 ;custom_aspect_ratio_1=2:1       ; 864:216 @ 14.32 (wider than 1920) (not working)
 ;custom_aspect_ratio_2=4:3       ; 900:270 @ 14.32, MegaAGS (not working)
 
@@ -101,3 +122,12 @@ custom_aspect_ratio_2=897:605    ; 598:242 @ 10.74 (wide)
 custom_aspect_ratio_1=82:55      ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:21     ; 656:192 @ 10.74, Wide Border
+
+[VIC20]
+custom_aspect_ratio_1=1632:1205  ; 204:241, NTSC, 8:5 PAR
+custom_aspect_ratio_2=228:175    ; 228:280, PAL, 8:5 PAR
+
+; ** ARCADE **
+
+[jtcps1]
+custom_aspect_ratio_1=10:7      ; 384:224 @ 8.000 (not working yet)
