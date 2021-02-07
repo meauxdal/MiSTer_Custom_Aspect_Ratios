@@ -40,51 +40,60 @@ custom_aspect_ratio_1=553:412    ; 237:206 @ 5.370, 7:6 PAR
 
 [Colecovision]
 ;Aspect Ratio: Original for 1:1 PAR
-;custom_aspect_ratio_1=32:21     ; 256:192 (2048:1344, wider than 1920)
+custom_aspect_ratio_2=32:21      ; 256:192 @ 5.370 (2048:1344, wider than 1920)
 
 [Gameboy]
-custom_aspect_ratio_1=8:7        ; 160:144, square PAR (256:224)
-custom_aspect_ratio_2=4:3        ; 160:144, wider PAR (256:224)
+;Game Boy, treat as 160:144 @ ~6 MHz for square pixels
+;custom_aspect_ratio_1=10:9      ; 160:144 @ 6.000, 9:9 PAR (same as Original)
+
+;Super Game Boy, treat as 256:224 @ ~6 MHz for square pixels
+custom_aspect_ratio_1=8:7        ; 256:224 @ 6.000, 6:6 PAR (160:144)
+custom_aspect_ratio_2=4:3        ; 256:224 @ 5.000, 7:6 PAR (160:144)
 
 [Genesis]
-custom_aspect_ratio_1=4:3        ; 256:224, Border Off
-custom_aspect_ratio_2=25:21      ; 320:224, Border Off
-;custom_aspect_ratio_1=112:81    ; 280:243, Border On
-;custom_aspect_ratio_2=344:243   ; 344:243, Border On
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 6:6 PAR, Border Off
+;custom_aspect_ratio_2=25:21     ; 320:224 @ 6.700, 7:6 PAR, Border Off
+;custom_aspect_ratio_1=112:81    ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
 
 [MegaCD]
-custom_aspect_ratio_1=4:3        ; 256:224, Border Off
-custom_aspect_ratio_2=25:21      ; 320:224, Border Off
-;custom_aspect_ratio_1=112:81    ; 280:243, Border On
-;custom_aspect_ratio_2=344:243   ; 344:243, Border On
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 6:6 PAR, Border Off
+;custom_aspect_ratio_2=25:21     ; 320:224 @ 6.700, 7:6 PAR, Border Off
+;custom_aspect_ratio_1=112:81    ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
 
 [NeoGeo]
-custom_aspect_ratio_1=10:7       ; 320:224 (thin)
-custom_aspect_ratio_2=25:21      ; 320:224 (wide)
-;custom_aspect_ratio_2=19:14     ; 304:224 (not necessary)
+custom_aspect_ratio_1=10:7       ; 320:224 @ 6.700, 6:6 PAR (thin)
+custom_aspect_ratio_2=25:21      ; 320:224 @ 6.700, 7:6 PAR (wide)
+;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=4:3        ; 256:224
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, Hide Overscan On
 
 [Odyssey2]
 custom_aspect_ratio_1=161:90     ; 368:240 @ 5.370, 7:6 PAR
 
 [SMS]
-;Aspect Ratio: Original, Border: Off for 1:1 PAR in SMS mode (need 256/248 width fix commits)
-;Aspect Ratio: Original for 4:3 PAR in Game Gear mode
-;custom_aspect_ratio_1=32:21     ; 256:192, SMS, Border Off (2048:1344, wider than 1920)
-;custom_aspect_ratio_2=329:240   ; 282:240, SMS, Border On 
-;custom_aspect_ratio_2=31:21     ; 248:192, SMS, Border Off (1984:1344, wider than 1920) (BG: Cut after 256/248 width fix commits)
-;custom_aspect_ratio_2=282:239   ; 282:239, SMS, Border On, square PAR (obsolete after 256/248 width fix commits)
-;custom_aspect_ratio_2=329:239   ; 282:239, SMS, Border On (wider than 1920)
-custom_aspect_ratio_1=10:9       ; 160:144, Game Gear, 10:10 PAR
-custom_aspect_ratio_2=11:9       ; 160:144, Game Gear, 11:10 PAR
+;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR (need 256/248 width fix commits)
+;custom_aspect_ratio_1=4:3       ; 256:192 @ 5.370, 7:7 PAR, Border Off (1792:1344) (same as Original)
+;custom_aspect_ratio_1=32:21     ; 256:192 @ 5.370, 8:7 PAR, Border Off (2048:1344, wider than 1920)
+;custom_aspect_ratio_2=329:240   ; 282:240 @ 5.370, Border On 
+;custom_aspect_ratio_2=31:21     ; 248:192 @ 5.370, Border Off (1984:1344, wider than 1920) (BG: Cut after 256/248 width fix commits)
+;custom_aspect_ratio_2=282:239   ; 282:239 @ 5.370, Border On, square PAR (obsolete after 256/248 width fix commits)
+;custom_aspect_ratio_2=329:239   ; 282:239 @ 5.370, Border On (wider than 1920)
+
+;Game Gear, Aspect Ratio: Original for 4:3 PAR
+custom_aspect_ratio_1=10:9       ; 160:144, 10:10 PAR
+custom_aspect_ratio_2=11:9       ; 160:144, 11:10 PAR
 
 [SNES]
-custom_aspect_ratio_1=4:3        ; 256:224, most games
-custom_aspect_ratio_2=896:717    ; 256:239, Dragon Quest V
-;custom_aspect ratio_2=8:7       ; 512:224, Secret of Mana 
-;custom_aspect_ratio_2=16:21     ; 512:448, Radical Psycho Machine Racing (USA)
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, most games
+custom_aspect_ratio_2=896:717    ; 256:239 @ 5.370, 7:6 PAR, Dragon Quest V
+;custom_aspect ratio_2=8:7       ; 512:224 @ 10.74, 3:6 PAR, Secret of Mana
+;custom_aspect_ratio_2=8:7       ; 512:448 @ 10.74, 2:2 PAR, Radical Psycho Machine Racing (USA)
+;custom_aspect_ratio_2=16:21     ; 512:448 @ 10.74, 2:3 PAR, Radical Psycho Machine Racing (USA)
 
 [TGFX16]
 custom_aspect_ratio_1=15:11      ; 270:231 @ 5.370, Overscan Hidden
@@ -103,15 +112,22 @@ custom_aspect_ratio_1=540:719    ; 540:719, 2:2 PAR
 custom_aspect_ratio_1=1600:1344  ; 1600:224 (testing)
 
 [C64]
-custom_aspect_ratio_1=1616:1255  ; 404:251, NTSC, 4:5 PAR
-custom_aspect_ratio_2=37:28      ; 370:280, PAL, 5:5 PAR
+custom_aspect_ratio_1=1616:1255  ; 404:251 @ 8.190, NTSC, 4:5 PAR
+custom_aspect_ratio_2=37:28      ; 370:280 @ 8.190, PAL, 5:5 PAR
 
 [Minimig]
+;Minimig is weird. These are mostly not working yet.
+
 ;Video area by: Blank
-custom_aspect_ratio_1=1508:1205  ; 754:241 @ 14.32, NTSC, 2:5 PAR
-custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR
-;custom_aspect_ratio_1=2:1       ; 864:216 @ 14.32 (wider than 1920) (not working)
-;custom_aspect_ratio_2=4:3       ; 900:270 @ 14.32, MegaAGS (not working)
+;custom_aspect_ratio_1=4:3       ; 864:216 @ 14.32, NTSC, 2:6 PAR, Fire + Ice
+;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, PAL, 3:5 PAR, Pinball Illusions
+
+custom_aspect_ratio_1=1508:1205  ; 754:241 @ 14.32, NTSC, 2:5 PAR, by LamerDeluxe
+custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR, by LamerDeluxe
+
+;Video area by: Blank+
+;custom_aspect_ratio_1=1284:1205 ; 642:241 @ 14.32, NTSC, 2:5 PAR, Fire + Ice
+;custom_aspect_ratio_2=1143:715  ; 762:286 @ 14.19, PAL, 3:5 PAR, Pinball Illusions (not working)
 
 [MSX]
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74 (thin)
@@ -124,10 +140,10 @@ custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:21     ; 656:192 @ 10.74, Wide Border
 
 [VIC20]
-custom_aspect_ratio_1=1632:1205  ; 204:241, NTSC, 8:5 PAR
-custom_aspect_ratio_2=228:175    ; 228:280, PAL, 8:5 PAR
+custom_aspect_ratio_1=1632:1205  ; 204:241 @ 4.091, NTSC, 8:5 PAR, by LamerDeluxe
+custom_aspect_ratio_2=228:175    ; 228:280 @ 4.434, PAL, 8:5 PAR, by LamerDeluxe
 
 ; ** ARCADE **
 
 [jtcps1]
-custom_aspect_ratio_1=10:7      ; 384:224 @ 8.000 (not working yet)
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040 (not working yet)
