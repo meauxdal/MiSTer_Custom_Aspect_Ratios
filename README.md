@@ -1,5 +1,5 @@
-# MiSTer_Custom_Aspect_Ratios
-Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use with vscale=1 for the purpose of achieving both vertical and horizontal integer aspect scaling, minimizing aspect ratio error when possible. Most of these ratios have been generated using Rysha's aspect ratio calculator, turned into a web app by morf77: https://morf77.pythonanywhere.com/ar
+# MiSTer Custom Aspect Ratios
+Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use with vscale=1 for the purpose of achieving both vertical and horizontal integer aspect scaling, minimizing aspect ratio error when possible. Most of these ratios have been generated using Rysha's aspect ratio calculator, converted to a web app by morf77: https://morf77.pythonanywhere.com/ar
 
 These ratios are intended for use along with vscale=1 in order to avoid inconsistently scaled pixels. This avoids shimmering when scrolling along both the vertical and horizontal axes, usually at the expense of some aspect ratio accuracy.
 
@@ -45,7 +45,7 @@ Most ratios were calculated using morf77's online aspect ratio calculator based 
 
 # Resources & Links
 
-https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, turned into a web app by morf77
+https://morf77.pythonanywhere.com/ar - Rysha's aspect ratio calculator, converted to a web app by morf77
 
 https://pineight.com/mw/?title=Dot_clock_rates - various pixel clocks
 
