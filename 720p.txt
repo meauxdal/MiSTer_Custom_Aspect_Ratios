@@ -1,100 +1,127 @@
 ; ** CONSOLE **
 
+[Astrocade]
+custom_aspect_ratio_1=30:23      ; 180:230 @ 3.580, 5:3 PAR
+
 [Atari2600]
-;VBlank: Regenerate
-custom_aspect_ratio_1=160:123  ; 160;205, BIOS
-custom_aspect_ratio_2=400:303  ; 160:202, most games
-;custom_aspect_ratio_2=80:69   ; 160:230, Air Raid
-;custom_aspect_ratio_2=800:609 ; 160:203, Air Raiders
-;custom_aspect_ratio_2=800:603 ; 160:201, Air-Sea Battle
-;custom_aspect_ratio_2=800:591 ; 160:197, Airlock
-;custom_aspect_ratio_2=800:543 ; 160:181, Artillery Duel
-;custom_aspect_ratio_2=4:3     ; 160:200, Assault
-;custom_aspect_ratio_2=200:153 ; 160:204, Astroblast
-;custom_aspect_ratio_2=120:127 ; 160:254, Base Attack
-;custom_aspect_ratio_2=800:573 ; 160:191, Boing!
-;custom_aspect_ratio_2=14:9    ; 160:180, Buck Rogers
-;custom_aspect_ratio_2=25:18   ; 160:192, Chase the Chuckwagon
-;custom_aspect_ratio_2=800:621 ; 160:207, Chuck Norris Superkicks
-;custom_aspect_ratio_2=800:597 ; 160:199, Cosmic Commuter
-;custom_aspect_ratio_2=400:297 ; 160:198, Custer's Revenge
-;custom_aspect_ratio_2=20:21   ; 160:252, Dancing Plate
-;custom_aspect_ratio_2=800:663 ; 160:221, Desert Falcon title screen
-;custom_aspect_ratio_2=40:33   ; 160:220, Desert Falcon gameplay
-;custom_aspect_ratio_2=50:39   ; 160:208, Dice Puzzle
-;custom_aspect_ratio_2=400:309 ; 160:206, Final Approach
-;custom_aspect_ratio_2=800:627 ; 160:209, Go Go Home Monster
-;custom_aspect_ratio_2=160:129 ; 160:215, Hole Hunter
-;custom_aspect_ratio_2=400:291 ; 160:194, James Bond 007
-;custom_aspect_ratio_2=10:11   ; 160:264, Motocross
-;custom_aspect_ratio_2=800:567 ; 160:189, The Music Machine
+;VBlank: Regenerate, 3.58 MHz pixel clock
+custom_aspect_ratio_1=160:123    ; 160;205, BIOS
+custom_aspect_ratio_2=400:303    ; 160:202, most games
+;custom_aspect_ratio_2=80:69     ; 160:230, Air Raid
+;custom_aspect_ratio_2=800:609   ; 160:203, Air Raiders
+;custom_aspect_ratio_2=800:603   ; 160:201, Air-Sea Battle
+;custom_aspect_ratio_2=800:591   ; 160:197, Airlock
+;custom_aspect_ratio_2=800:543   ; 160:181, Artillery Duel
+;custom_aspect_ratio_2=4:3       ; 160:200, Assault
+;custom_aspect_ratio_2=200:153   ; 160:204, Astroblast
+;custom_aspect_ratio_2=120:127   ; 160:254, Base Attack
+;custom_aspect_ratio_2=800:573   ; 160:191, Boing!
+;custom_aspect_ratio_2=14:9      ; 160:180, Buck Rogers
+;custom_aspect_ratio_2=25:18     ; 160:192, Chase the Chuckwagon
+;custom_aspect_ratio_2=800:621   ; 160:207, Chuck Norris Superkicks
+;custom_aspect_ratio_2=800:597   ; 160:199, Cosmic Commuter
+;custom_aspect_ratio_2=400:297   ; 160:198, Custer's Revenge
+;custom_aspect_ratio_2=20:21     ; 160:252, Dancing Plate
+;custom_aspect_ratio_2=800:663   ; 160:221, Desert Falcon title screen
+;custom_aspect_ratio_2=40:33     ; 160:220, Desert Falcon gameplay
+;custom_aspect_ratio_2=50:39     ; 160:208, Dice Puzzle
+;custom_aspect_ratio_2=400:309   ; 160:206, Final Approach
+;custom_aspect_ratio_2=800:627   ; 160:209, Go Go Home Monster
+;custom_aspect_ratio_2=160:129   ; 160:215, Hole Hunter
+;custom_aspect_ratio_2=400:291   ; 160:194, James Bond 007
+;custom_aspect_ratio_2=10:11     ; 160:264, Motocross
+;custom_aspect_ratio_2=800:567   ; 160:189, The Music Machine
 
 [Atari5200]
-custom_aspect_ratio_1=89:60    ; 356:240 @ 7.160
+custom_aspect_ratio_1=89:60      ; 356:240 @ 7.160
+
+[AY-3-8500]
+custom_aspect_ratio_1=237:206    ; 237:206 @ 5.370, 3:3 PAR
 
 [Colecovision]
 ;Aspect Ratio: Original for 1:1 PAR
-;custom_aspect_ratio_1=4:3     ; 256:192 (same as Original)
+;custom_aspect_ratio_1=4:3       ; 256:192 (same as Original)
 
 [Gameboy]
-custom_aspect_ratio_1=8:7      ; 160:144, square PAR (256:224)
+custom_aspect_ratio_1=8:7        ; 160:144, square PAR (256:224)
 
 [Genesis]
-custom_aspect_ratio_1=8:7      ; 256:224, Border Off
-custom_aspect_ratio_2=10:7     ; 320:224, Border Off
-;custom_aspect_ratio_1=280:243 ; 280:243, Border On
-;custom_aspect_ratio_2=344:243 ; 344:243, Border On
+custom_aspect_ratio_1=8:7        ; 256:224, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224, Border Off
+;custom_aspect_ratio_1=280:243   ; 280:243, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243, Border On
 
 [MegaCD]
-custom_aspect_ratio_1=8:7      ; 256:224, Border Off
-custom_aspect_ratio_2=10:7     ; 320:224, Border Off
-;custom_aspect_ratio_1=280:243 ; 280:243, Border On
-;custom_aspect_ratio_2=344:243 ; 344:243, Border On
+custom_aspect_ratio_1=8:7        ; 256:224, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224, Border Off
+;custom_aspect_ratio_1=280:243   ; 280:243, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243, Border On
 
 [NeoGeo]
-custom_aspect_ratio_1=10:7     ; 320:224
-;custom_aspect_ratio_2=19:14   ; 304:224 (not necessary)
+custom_aspect_ratio_1=10:7       ; 320:224
+;custom_aspect_ratio_2=19:14     ; 304:224 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=8:7      ; 256:224
+custom_aspect_ratio_1=8:7        ; 256:224
+
+[Odyssey2]
+custom_aspect_ratio_1=23:15      ; 368:240 @ 5.370, 3:3 PAR
 
 [SMS]
 ;Aspect Ratio: Original, Border: Off for 1:1 PAR in SMS mode (need 256/248 width fix commits)
 ;Aspect Ratio: Original for 4:3 PAR in Game Gear mode
-;custom_aspect_ratio_1=4:3     ; 256:192, SMS, Border Off
-;custom_aspect_ratio_2=47:40   ; 282:240, SMS, Border On 
-;custom_aspect_ratio_2=31:24   ; 248:192, SMS, Border Off (BG: Cut after 256/248 width fix commits)
-;custom_aspect_ratio_2=282:239 ; 282:239, SMS, Border On (obsolete after 256/248 width fix commits)
-custom_aspect_ratio_1=10:9     ; 160:144, Game Gear, square PAR
-custom_aspect_ratio_2=11:9     ; 160:144, Game Gear, wider PAR
+;custom_aspect_ratio_1=4:3       ; 256:192, SMS, Border Off
+;custom_aspect_ratio_2=47:40     ; 282:240, SMS, Border On 
+;custom_aspect_ratio_2=31:24     ; 248:192, SMS, Border Off (BG: Cut after 256/248 width fix commits)
+;custom_aspect_ratio_2=282:239   ; 282:239, SMS, Border On (obsolete after 256/248 width fix commits)
+custom_aspect_ratio_1=10:9       ; 160:144, Game Gear, 5:5 PAR
+custom_aspect_ratio_2=11:9       ; 160:144, Game Gear, 6:5 PAR
 
 [SNES]
-custom_aspect_ratio_1=8:7      ; 256:224, most games
-custom_aspect_ratio_2=256:239  ; 256:239, Dragon Quest V
-;custom_aspect_ratio_2=32:21   ; 512:224, Secret of Mana (too wide)
-;custom_aspect_ratio_2=8:7     ; 512:448, Radical Psycho Machine Racing (USA)
+custom_aspect_ratio_1=8:7        ; 256:224, most games
+custom_aspect_ratio_2=256:239    ; 256:239, Dragon Quest V
+;custom_aspect_ratio_2=32:21     ; 512:224, Secret of Mana (too wide)
+;custom_aspect_ratio_2=8:7       ; 512:448, Radical Psycho Machine Racing (USA)
 
 [TGFX16]
-custom_aspect_ratio_1=90:77    ; 270:231 @ 5.370, Overscan Hidden
-custom_aspect_ratio_2=120:77   ; 360:231 @ 7.383, Overscan Hidden, R-Type (wide)
-;custom_aspect_ratio_2=80:77   ; 360:231 @ 7.383, Overscan Hidden, R-Type (thin)
-;custom_aspect_ratio_2=120:77  ; 540:231 @ 10.74, Overscan Hidden, Sherlock Holmes Consulting Detective
-;custom_aspect_ratio_1=135:121 ; 270:242 @ 5.370, Overscan Visible
-;custom_aspect_ratio_2=180:121 ; 360:242 @ 7.383, Overscan Visible, R-Type
-;custom_aspect_ratio_2=135:121 ; 540:242 @ 10.74, Overscan Visible, Sherlock Holmes Consulting Detective
+custom_aspect_ratio_1=90:77      ; 270:231 @ 5.370, Overscan Hidden
+custom_aspect_ratio_2=120:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type (wide)
+;custom_aspect_ratio_2=80:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type (thin)
+;custom_aspect_ratio_2=120:77    ; 540:231 @ 10.74, Overscan Hidden, Sherlock Holmes Consulting Detective
+;custom_aspect_ratio_1=135:121   ; 270:242 @ 5.370, Overscan Visible
+;custom_aspect_ratio_2=180:121   ; 360:242 @ 7.383, Overscan Visible, R-Type
+;custom_aspect_ratio_2=135:121   ; 540:242 @ 10.74, Overscan Visible, Sherlock Holmes Consulting Detective
+
+[Vectrex]
+custom_aspect_ratio_1=540:719    ; 540:719, 1:1 PAR
 
 ; ** COMPUTER **
 
+[C64]
+custom_aspect_ratio_1=404:251    ; 404:251, NTSC, 2:2 PAR
+custom_aspect_ratio_2=37:28      ; 370:280, PAL, 2:2 PAR
+
 [Minimig]
 ;Video area by: Blank
-;custom_aspect_ratio_1=4:3     ; 864:216 @ 14.32 (not working)
-;custom_aspect_ratio_2=5:3     ; 900:270 @ 14.32, MegaAGS (not working)
+custom_aspect_ratio_1=377:241    ; 754:241, NTSC, 1:2 PAR
+custom_aspect_ratio_2=29:22      ; 754:572, PAL, 1:1 PAR
+;custom_aspect_ratio_1=4:3       ; 864:216 @ 14.32 (not working)
+;custom_aspect_ratio_2=5:3       ; 900:270 @ 14.32, MegaAGS (not working)
 
 [MSX]
-custom_aspect_ratio_1=299:242  ; 598:242 @ 10.74
-custom_aspect_ratio_2=299:293  ; 598:293 @ 10.74, Manbow 2
+custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
+custom_aspect_ratio_2=299:293    ; 598:293 @ 10.74, Manbow 2
 
 [SamCoupe]
-custom_aspect_ratio_1=41:33    ; 656:264 @ 10.74, Large Border
-custom_aspect_ratio_2=152:87   ; 608:232 @ 10.74, Small Border
-;custom_aspect_ratio_2=41:18   ; 656:192 @ 10.74, Wide Border
+custom_aspect_ratio_1=41:33      ; 656:264 @ 10.74, Large Border
+custom_aspect_ratio_2=152:87     ; 608:232 @ 10.74, Small Border
+;custom_aspect_ratio_2=41:18     ; 656:192 @ 10.74, Wide Border
+
+[VIC20]
+custom_aspect_ratio_1=306:241    ; 204:241, NTSC, 6:4 PAR
+custom_aspect_ratio_2=171:140    ; 228:280, PAL, 5:3 PAR
+
+; ** ARCADE **
+
+[jtcps1]
+custom_aspect_ratio_1=8:7        ; 384:224 @ 8.000 (not working yet)
