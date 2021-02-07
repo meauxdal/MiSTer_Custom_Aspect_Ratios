@@ -40,49 +40,57 @@ custom_aspect_ratio_1=711:515    ; 237:206 @ 5.370, 6:5 PAR
 
 [Colecovision]
 ;Aspect Ratio: Original for 1:1 PAR
-custom_aspect_ratio_1=14:9       ; 256:192
+custom_aspect_ratio_1=4:3        ; 256:192 @ 5.370, 6:6 PAR
+custom_aspect_ratio_2=14:9       ; 256:192 @ 5.370, 7:6 PAR
 
 [Gameboy]
-custom_aspect_ratio_1=8:7        ; 160:144, square PAR (256:224)
-custom_aspect_ratio_2=48:35      ; 160:144, wider PAR (256:224)
+;Game Boy, treat as 160:144 @ ~6 MHz for square pixels
+;custom_aspect_ratio_1=10:9      ; 160:144 @ 6.000, 8:8 PAR (same as Original)
+
+;Super Game Boy, treat as 256:224 @ ~6 MHz for square pixels
+custom_aspect_ratio_1=8:7        ; 256:224 @ 6.000, 5:5 PAR (160:144)
+custom_aspect_ratio_2=48:35      ; 256:224 @ 6.000, 6:5 PAR (160:144)
 
 [Genesis]
-custom_aspect_ratio_1=48:35      ; 256:224, Border Off
-custom_aspect_ratio_2=10:7       ; 320:224, Border Off
-;custom_aspect_ratio_1=350:243   ; 280:243, Border On
-;custom_aspect_ratio_2=344:243   ; 344:243, Border On
+custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 5:5 PAR, Border Off
+;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
 
 [MegaCD]
-custom_aspect_ratio_1=48:35      ; 256:224, Border Off
-custom_aspect_ratio_2=10:7       ; 320:224, Border Off
-;custom_aspect_ratio_1=350:243   ; 280:243, Border On
-;custom_aspect_ratio_2=344:243   ; 344:243, Border On
+custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 5:5 PAR, Border Off
+;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
 
 [NeoGeo]
-custom_aspect_ratio_1=10:7       ; 320:224
-;custom_aspect_ratio_2=19:14     ; 304:224 (not necessary)
+custom_aspect_ratio_1=10:7       ; 320:224 @ 6.700, 5:5 PAR
+;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=48:35      ; 256:224
+custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR, Hide Overscan On
 
 [Odyssey2]
 custom_aspect_ratio_1=46:25      ; 368:240 @ 5.370, 6:5 PAR
 
 [SMS]
-;Aspect Ratio: Original, Border: Off for 1:1 PAR in SMS mode (need 256/248 width fix commits)
-;Aspect Ratio: Original for 4:3 PAR in Game Gear mode
-;custom_aspect_ratio_1=14:9      ; 256:192, SMS, Border Off
-;custom_aspect_ratio_2=141:100   ; 282:240, SMS, Border On 
-;custom_aspect_ratio_2=31:20     ; 248:192, SMS, Border Off (BG: Cut after 256/248 width fix commits)
-;custom_aspect_ratio_2=705:478   ; 282:239, SMS, Border On (obsolete after 256/248 width fix commits)
-custom_aspect_ratio_1=10:9       ; 160:144, Game Gear, 8:8 PAR
-custom_aspect_ratio_2=5:4        ; 160:144, Game Gear, 9:8 PAR
+;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR (need 256/248 width fix commits)
+;custom_aspect_ratio_1=14:9      ; 256:192 @ 5.370, 7:6 PAR, Border Off
+;custom_aspect_ratio_2=141:100   ; 282:240 @ 5.370, Border On 
+;custom_aspect_ratio_2=31:20     ; 248:192 @ 5.370, Border Off (BG: Cut after 256/248 width fix commits)
+;custom_aspect_ratio_2=705:478   ; 282:239 @ 5.370, Border On (obsolete after 256/248 width fix commits)
+
+;Game Gear, Aspect Ratio: Original for 4:3 PAR
+custom_aspect_ratio_1=10:9       ; 160:144, 8:8 PAR
+custom_aspect_ratio_2=5:4        ; 160:144, 9:8 PAR
 
 [SNES]
-custom_aspect_ratio_1=48:35      ; 256:224, most games 
-custom_aspect_ratio_2=1536:1195  ; 256:239, Dragon Quest V
-;custom_aspect_ratio_2=8:7       ; 512:224, Secret of Mana
-;custom_aspect_ratio_2=4:7       ; 512:448, Radical Psycho Machine Racing (USA)
+custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR, most games 
+custom_aspect_ratio_2=1536:1195  ; 256:239 @ 5.370, 6:5 PAR, Dragon Quest V
+;custom_aspect_ratio_2=12:7      ; 512:224 @ 7.383, 4:5 PAR, Secret of Mana (wide)
+;custom_aspect_ratio_2=48:35     ; 512:224 @ 10.74, 3:5 PAR, Secret of Mana (thin)
+;custom_aspect_ratio_2=8:7       ; 512:448 @ 10.74, 2:2 PAR, Radical Psycho Machine Racing (USA) (wide)
+;custom_aspect_ratio_2=4:7       ; 512:448 @ 10.74, 1:2 PAR, Radical Psycho Machine Racing (USA) (thin)
 
 [TGFX16]
 custom_aspect_ratio_1=108:77     ; 270:231 @ 5.370, Overscan Hidden
@@ -98,15 +106,22 @@ custom_aspect_ratio_1=540:719    ; 540:719, 1:1 PAR
 ; ** COMPUTER **
 
 [C64]
-custom_aspect_ratio_1=303:251    ; 404:251, NTSC, 3:4 PAR
-custom_aspect_ratio_2=37:28      ; 370:280, PAL, 4:4 PAR
+custom_aspect_ratio_1=303:251    ; 404:251 @ 8.190, NTSC, 3:4 PAR
+custom_aspect_ratio_2=37:28      ; 370:280 @ 8.190, PAL, 4:4 PAR
 
 [Minimig]
+;Minimig is weird. These are mostly not working yet.
+
 ;Video area by: Blank
-custom_aspect_ratio_1=377:241    ; 754:241, NTSC, 2:4 PAR
-custom_aspect_ratio_2=29:44      ; 754:572, PAL, 1:2 PAR
-;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32 (not working)
-;custom_aspect_ratio_2=5:3       ; 900:270 @ 14.32, MegaAGS (not working)
+;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, NTSC, 2:5 PAR, Fire + Ice (1728:1080, wider than 1600)
+;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, PAL, 2:4 PAR, Pinball Illusions
+
+custom_aspect_ratio_1=377:241    ; 754:241 @ 14.32, NTSC, 2:4 PAR, by LamerDeluxe
+custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR, by LamerDeluxe
+
+;Video area by: Blank+
+;custom_aspect_ratio_1=321:241   ; 642:241 @ 14.32, NTSC, 2:4 PAR, Fire + Ice
+;custom_aspect_ratio_2=381:286   ; 762:286 @ 14.19, PAL, 2:4 PAR, Pinball Illusions (same as Original) (not working)
 
 [MSX]
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
@@ -118,10 +133,10 @@ custom_aspect_ratio_2=228:145    ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:24     ; 656:192 @ 10.74, Wide Border
 
 [VIC20]
-custom_aspect_ratio_1=306:241    ; 204:241, NTSC, 6:4 PAR
-custom_aspect_ratio_2=57:40      ; 228:280, PAL, 7:4 PAR
+custom_aspect_ratio_1=306:241    ; 204:241 @ 4.091, NTSC, 6:4 PAR, by LamerDeluxe
+custom_aspect_ratio_2=57:40      ; 228:280 @ 4.434, PAL, 7:4 PAR, by LamerDeluxe
 
 ; ** ARCADE **
 
 [jtcps1]
-custom_aspect_ratio_1=48:35     ; 384:224 @ 8.000 (not working yet)
+custom_aspect_ratio_1=48:35      ; 384:224 @ 8.040 (not working yet)
