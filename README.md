@@ -21,7 +21,7 @@ video_mode=1600,64,192,304,1200,1,3,46,162000
 ; 1600x1200@60Hz
 ```
 
-There are comments indicating core video settings, pixel clocks, resolutions, and relevant games. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom aspect ratios per core in addition to 2 global ratios (with each .ini file having its own set), so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
+There are comments indicating base resolution, pixel clock used, NTSC or PAL, unreduced pixel aspect ratio, core video settings, and example games. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom aspect ratios per core in addition to 2 global ratios (with each .ini file having its own set), so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
 
 # Issues
 
