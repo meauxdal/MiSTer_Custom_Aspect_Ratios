@@ -1,3 +1,5 @@
+; 1080p5x.txt is intended for use at 1080p with Crop enabled and vscale=0. This allows 5x vertical integer scaling with ~240p sources.
+
 ; ** CONSOLE **
 
 [NES]
