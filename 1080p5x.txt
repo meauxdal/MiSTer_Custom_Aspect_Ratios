@@ -1,4 +1,4 @@
-; 1080p5x.txt allows 5x vertical integer scaling with ~240p sources. Only works for cores that have had cropping enabled.
+; 1080p5x.txt allows 5x vertical integer scaling with ~240p sources. Only works for cores that have had cropping enabled. These have yet to be tested. If they don't work, try the ratio in parentheses afterward; this is the ratio that would work normally at 1080p. This section will be updated when I get a chance to test these.
 
 ; ** CONSOLE **
 
