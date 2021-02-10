@@ -91,7 +91,7 @@ custom_aspect_ratio_2=11:9       ; 160:144, 11:10 PAR
 [SNES]
 custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, most games
 custom_aspect_ratio_2=896:717    ; 256:239 @ 5.370, 7:6 PAR, Dragon Quest V
-;custom_aspect ratio_2=8:7       ; 512:224 @ 10.74, 3:6 PAR, Secret of Mana
+;custom_aspect_ratio_2=8:7       ; 512:224 @ 10.74, 3:6 PAR, Secret of Mana
 ;custom_aspect_ratio_2=8:7       ; 512:448 @ 10.74, 2:2 PAR, Radical Psycho Machine Racing (USA)
 ;custom_aspect_ratio_2=16:21     ; 512:448 @ 10.74, 2:3 PAR, Radical Psycho Machine Racing (USA)
 
