@@ -33,7 +33,7 @@ custom_aspect_ratio_2=960:707    ; 160:202, most games
 ;custom_aspect_ratio_2=640:441   ; 160:189, The Music Machine
 
 [Atari5200]
-custom_aspect_ratio_1=89:72      ; 356:240 @ 7.160
+custom_aspect_ratio_1=89:60      ; 356:240 @ 6.130, 6:6 PAR
 
 [AY-3-8500]
 custom_aspect_ratio_1=553:412    ; 237:206 @ 5.370, 7:6 PAR
@@ -96,9 +96,9 @@ custom_aspect_ratio_2=896:717    ; 256:239 @ 5.370, 7:6 PAR, Dragon Quest V
 ;custom_aspect_ratio_2=16:21     ; 512:448 @ 10.74, 2:3 PAR, Radical Psycho Machine Racing (USA)
 
 [TGFX16]
-custom_aspect_ratio_1=15:11      ; 270:231 @ 5.370, Overscan Hidden
-custom_aspect_ratio_2=100:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type
-;custom_aspect_ratio_2=90:77     ; 540:231 @ 10.74, Overscan Hidden, Sherlock Holmes Consulting Detective
+custom_aspect_ratio_1=15:11      ; 270:231 @ 5.370, 7:6 PAR, Overscan Hidden
+custom_aspect_ratio_2=100:77     ; 360:231 @ 7.383, 5:6 PAR, Overscan Hidden, R-Type
+;custom_aspect_ratio_2=90:77     ; 540:231 @ 10.74, 3:6 PAR, Overscan Hidden, Sherlock Holmes Consulting Detective
 ;custom_aspect_ratio_1=162:121   ; 270:242 @ 5.370, Overscan Visible
 ;custom_aspect_ratio_2=144:121   ; 360:242 @ 7.383, Overscan Visible, R-Type
 ;custom_aspect_ratio_2=162:121   ; 540:242 @ 10.74, Overscan Visible, Sherlock Holmes Consulting Detective
@@ -107,6 +107,13 @@ custom_aspect_ratio_2=100:77     ; 360:231 @ 7.383, Overscan Hidden, R-Type
 custom_aspect_ratio_1=540:719    ; 540:719, 2:2 PAR
 
 ; ** COMPUTER **
+
+[ao486]
+custom_aspect_ratio_1=48:35      ; 320:200 @ 7.160, NTSC, 6:7 PAR (CGA)
+;custom_aspect_ratio_2=48:35     ; 640:350 @ 7.160, NTSC, 3:4 PAR (EGA)
+
+[Atari800]
+custom_aspect_ratio_1=89:60      ; 356:240 @ 6.130, 6:6 PAR
 
 [AtariST]
 custom_aspect_ratio_1=1600:1344  ; 1600:224 (testing)
@@ -134,14 +141,25 @@ custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74 (thin)
 custom_aspect_ratio_2=897:605    ; 598:242 @ 10.74 (wide)
 ;custom_aspect_ratio_2=299:293   ; 598:293 @ 10.74, Manbow 2
 
-[SamCoupe]
+[SAMCoupe]
 custom_aspect_ratio_1=82:55      ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:21     ; 656:192 @ 10.74, Wide Border
 
+[TRS-80]
+custom_aspect_ratio_1=12:7       ; 384:192 @ 7.383, NTSC, 6:7 PAR (wide)
+custom_aspect_ratio_2=10:7       ; 384:192 @ 8.192, NTSC, 5:7 PAR (thin)
+
+[TSConf]
+custom_aspect_ratio_1=5:4        ; 360:288 @ 7.000, PAL, 5:5 PAR
+
 [VIC20]
 custom_aspect_ratio_1=1632:1205  ; 204:241 @ 4.091, NTSC, 8:5 PAR, by LamerDeluxe
 custom_aspect_ratio_2=228:175    ; 228:280 @ 4.434, PAL, 8:5 PAR, by LamerDeluxe
+
+[ZX-Spectrum]
+custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, PAL, 5:5 PAR
+custom_aspect_ratio_2=516:355    ; 344:284 @ 6.000, PAL, 6:5 PAR
 
 ; ** ARCADE **
 
