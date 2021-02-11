@@ -1,4 +1,4 @@
-; 1080p5x.txt allows 5x vertical integer scaling with ~240p sources. Only works for cores that have had cropping enabled. These have yet to be tested. If they don't work, try the ratio in parentheses afterward; this is the ratio that would work normally at 1080p. This section will be updated when I get a chance to test these.
+; 1080p5x.txt allows 5x vertical integer scaling with ~240p sources. Only works for cores that have had cropping enabled.
 
 ; ** CONSOLE **
 
@@ -6,40 +6,44 @@
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=32:27      ; 256:216, 5:5 PAR (8:7)
-custom_aspect_ratio_2=64:45      ; 256:216, 6:5 PAR (10:7)
-;custom_aspect_ratio_2=40:27     ; 320:216, 5:5 PAR (10:7)
+custom_aspect_ratio_1=64:45      ; 256:216, 6:5 PAR (wide)
+custom_aspect_ratio_2=32:27      ; 256:216, 5:5 PAR (thin)
+;custom_aspect_ratio_2=40:27     ; 320:216, 5:5 PAR (same as 320x224: Corrected w/ AR: Original)
 
 [MegaCD]
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=32:27      ; 256:216, 5:5 PAR (8:7)
-custom_aspect_ratio_2=64:45      ; 256:216, 6:5 PAR (10:7)
+custom_aspect_ratio_1=64:45      ; 256:216, 6:5 PAR (wide)
+custom_aspect_ratio_2=32:27      ; 256:216, 5:5 PAR (thin)
 
 [NeoGeo]
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=40:27      ; 320:216, 5:5 PAR (10:7)
+custom_aspect_ratio_1=40:27      ; 320:216, 5:5 PAR
 
 [NES]
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=32:27      ; 256:216, 5:5 PAR (8:7), by Elexor
-custom_aspect_ratio_2=64:45      ; 256:216, 6:5 PAR (10:7), by Elexor
+custom_aspect_ratio_1=64:45      ; 256:216, 6:5 PAR, by Elexor (wide)
+custom_aspect_ratio_2=32:27      ; 256:216, 5:5 PAR, by Elexor (thin)
+
+; [SMS]
+; Cropping has no effect (SMS=256:192, GG=160:144)
+; Use 1080p.txt ratios with vscale_mode=1
 
 [SNES]
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=32:27      ; 256:216, 5:5 PAR (8:7)
-custom_aspect_ratio_2=64:45      ; 256:216, 6:5 PAR (10:7)
+custom_aspect_ratio_1=64:45      ; 256:216, 6:5 PAR (wide)
+custom_aspect_ratio_2=32:27      ; 256:216, 5:5 PAR (thin)
 
 [TGFX16]
 vscale_border=0
 vscale_mode=0
 forced_scandoubler=0
-custom_aspect_ratio_1=3:2        ; 270:216, 6:5 PAR (225:154)
-custom_aspect_ratio_2=4:3        ; 360:216, 4:5 PAR (90:77), R-Type
+custom_aspect_ratio_1=3:2        ; 270:216, 6:5 PAR
+custom_aspect_ratio_2=4:3        ; 360:216, 4:5 PAR, R-Type
