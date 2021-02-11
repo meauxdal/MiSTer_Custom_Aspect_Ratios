@@ -70,7 +70,10 @@ custom_aspect_ratio_2=25:21      ; 320:224 @ 6.700, 7:6 PAR (wide)
 ;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, Hide Overscan On
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, NTSC, 7:6 PAR, Hide Overscan On
+custom_aspect_ratio_2=64:45      ; 256:240 @ 5.320, PAL, 8:6 PAR, Hide Overscan On (wide)
+;custom_aspect_ratio_2=56:45     ; 256:240 @ 6.000, PAL, 7:6 PAR, Hide Overscan On (thin)
+;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, PAL, 6:6 PAR, Hide Overscan On (square)
 
 [Odyssey2]
 custom_aspect_ratio_1=161:90     ; 368:240 @ 5.370, 7:6 PAR
