@@ -71,20 +71,18 @@ custom_aspect_ratio_2=25:21      ; 320:224 @ 6.700, 7:6 PAR (wide)
 
 [NES]
 custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, NTSC, 7:6 PAR, Hide Overscan On
-custom_aspect_ratio_2=64:45      ; 256:240 @ 5.320, PAL, 8:6 PAR, Hide Overscan On (wide)
-;custom_aspect_ratio_2=56:45     ; 256:240 @ 6.000, PAL, 7:6 PAR, Hide Overscan On (thin)
+;custom_aspect_ratio_2=64:45     ; 256:240 @ 5.320, PAL, 8:6 PAR, Hide Overscan On (wider than 1920)
+custom_aspect_ratio_2=56:45      ; 256:240 @ 6.000, PAL, 7:6 PAR, Hide Overscan On (thin)
 ;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, PAL, 6:6 PAR, Hide Overscan On (square)
 
 [Odyssey2]
 custom_aspect_ratio_1=161:90     ; 368:240 @ 5.370, 7:6 PAR
 
 [SMS]
-;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR (need 256/248 width fix commits)
+;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR
 ;custom_aspect_ratio_1=4:3       ; 256:192 @ 5.370, 7:7 PAR, Border Off (1792:1344) (same as Original)
 ;custom_aspect_ratio_1=32:21     ; 256:192 @ 5.370, 8:7 PAR, Border Off (2048:1344, wider than 1920)
-;custom_aspect_ratio_2=329:240   ; 282:240 @ 5.370, Border On 
-;custom_aspect_ratio_2=31:21     ; 248:192 @ 5.370, Border Off (1984:1344, wider than 1920) (BG: Cut after 256/248 width fix commits)
-;custom_aspect_ratio_2=282:239   ; 282:239 @ 5.370, Border On, square PAR (obsolete after 256/248 width fix commits)
+;custom_aspect_ratio_2=329:240   ; 282:240 @ 5.370, Border On (wider than 1920)
 ;custom_aspect_ratio_2=329:239   ; 282:239 @ 5.370, Border On (wider than 1920)
 
 ;Game Gear, Aspect Ratio: Original for 4:3 PAR
