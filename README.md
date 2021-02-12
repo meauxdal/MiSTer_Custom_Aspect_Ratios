@@ -33,6 +33,8 @@ There are comments indicating base resolution, pixel clock used, NTSC or PAL, un
 > - forced_scandoubler=0 in MiSTer.ini
 > - In OSD menu Scandoubler Fx: None
 
+*Other .txt files correspond to other custom video_modes. Files beyond the main four (720p.txt, 1080p.txt, 1200p.txt, 1440p.txt) may be less comprehensive.*
+
 # Issues
 
 Some especially wide aspect ratios have issues with video_mode=12 (1920x1440@60, or 1440p.txt here) due to exceeding 1920 pixels in width. If you attempt to set a custom aspect ratio that exceeds the horizontal resolution, you may see a resolution change. You can use a custom video_mode (or video_mode=13, if suitable) for ratios that exceed this resolution. You may encounter similar issues at 1600x1200 resolution using the 1200p.txt ratios.
