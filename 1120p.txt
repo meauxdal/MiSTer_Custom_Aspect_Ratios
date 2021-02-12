@@ -3,22 +3,22 @@
 [Gameboy]
 ;Super Game Boy, treat as 256:224 @ ~6 MHz for square pixels
 custom_aspect_ratio_1=8:7       ; 256:224 @ 6.000, 5:5 PAR (1280:1120)
-custom_aspect_ratio_2=48:35      ; 256:224 @ 5.000, 6:5 PAR (1536:1120)
+custom_aspect_ratio_2=48:35     ; 256:224 @ 5.000, 6:5 PAR (1536:1120)
 
 [Genesis]
 custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR, Border off
-;custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 5:5 PAR, Border off (same as 320x224: Corrected w/ AR: Original)
+;custom_aspect_ratio_2=10:7      ; 320:224 @ 6.700, 5:5 PAR, Border off (same as 320x224: Corrected w/ AR: Original)
 ;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border on
 ;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border on
 
 [MegaCD]
 custom_aspect_ratio_1=48:35      ; 256:224 @ 5.370, 6:5 PAR Border off
-;custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 5:5 PAR Border off (same as 320x224: Corrected w/ AR: Original)
+;custom_aspect_ratio_2=10:7      ; 320:224 @ 6.700, 5:5 PAR Border off (same as 320x224: Corrected w/ AR: Original)
 ;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border on
 ;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border on
 
 [NeoGeo]
-;custom_aspect_ratio_1=10:7       ; 320:224 @ 6.700, 5:5 PAR (same as Original)
+;custom_aspect_ratio_1=10:7      ; 320:224 @ 6.700, 5:5 PAR (same as Original)
 ;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
