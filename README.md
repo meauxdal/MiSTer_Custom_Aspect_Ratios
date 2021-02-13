@@ -5,7 +5,7 @@ These ratios are intended for use along with vscale_mode=1 in order to avoid inc
 
 # Updates
 
-Follow this [thread](https://misterfpga.org/viewtopic.php?f=31&t=1991&p=17826#p17826)on the MiSTer FPGA forums for updates.
+Follow this [thread](https://misterfpga.org/viewtopic.php?f=31&t=1991&p=17826#p17826) on the MiSTer FPGA forums for updates.
 
 # Instructions
 
