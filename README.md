@@ -25,6 +25,8 @@ video_mode=1600,64,192,304,1200,1,3,46,162000
 ; 1600x1200@60Hz
 ```
 
+[*Example modelines courtesy atrac17*](https://misterfpga.org/viewtopic.php?p=4654#p4654)
+
 There are comments indicating base resolution, pixel clock used, NTSC or PAL, unreduced pixel aspect ratio, core video settings, and example games. As of February 6, 2021, the MiSTer framework only allows you to specify 2 custom aspect ratios per core in addition to 2 global ratios (with each .ini file having its own set), so you'll need to determine which ones you want to use and adjust the .ini accordingly before launching the core.
 
 *1080p5x.txt contains ratios intended for use with builds which have enabled vertical cropping in order to allow 5x vertical integer scaling at 1080p. Per sorgelig:*
@@ -70,6 +72,8 @@ http://www.geocities.ws/podernixie/htpc/modes-en.html - more pixel clocks and in
 http://www.spritesmind.net/retro/2VGA/2VGA.html - additional information on portable systems
 
 https://misterfpga.org/ - MiSTer FPGA forums
+
+https://misterfpga.org/viewtopic.php?f=33&t=149 - custom video modes thread on MiSTer FPGA forums
 
 https://misterfpga.org/viewtopic.php?f=31&t=1899 - morf77's aspect ratio calculator discussion thread on MiSTer FPGA forums
 
