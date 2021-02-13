@@ -70,24 +70,27 @@ custom_aspect_ratio_2=25:21      ; 320:224 @ 6.700, 7:6 PAR (wide)
 ;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, NTSC, 7:6 PAR, Hide Overscan On
-;custom_aspect_ratio_2=64:45     ; 256:240 @ 5.320, PAL, 8:6 PAR, Hide Overscan On (wider than 1920)
-custom_aspect_ratio_2=56:45      ; 256:240 @ 6.000, PAL, 7:6 PAR, Hide Overscan On (thin)
-;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, PAL, 6:6 PAR, Hide Overscan On (square)
+;NTSC
+custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, , 7:6 PAR, Hide Overscan On
+
+;PAL
+;custom_aspect_ratio_2=64:45     ; 256:240 @ 5.320, 8:6 PAR, Hide Overscan On (wider than 1920)
+custom_aspect_ratio_2=56:45      ; 256:240 @ 6.000, 7:6 PAR, Hide Overscan On (thin)
+;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, 6:6 PAR, Hide Overscan On (square)
 
 [Odyssey2]
 custom_aspect_ratio_1=161:90     ; 368:240 @ 5.370, 7:6 PAR
 
 [SMS]
-;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR
-;custom_aspect_ratio_1=4:3       ; 256:192 @ 5.370, 7:7 PAR, Border Off (1792:1344) (same as Original)
+;SMS
+custom_aspect_ratio_1=4:3        ; 256:192 @ 5.370, 7:7 PAR, Border Off (1792:1344)
 ;custom_aspect_ratio_1=32:21     ; 256:192 @ 5.370, 8:7 PAR, Border Off (2048:1344, wider than 1920)
 ;custom_aspect_ratio_2=329:240   ; 282:240 @ 5.370, Border On (wider than 1920)
 ;custom_aspect_ratio_2=329:239   ; 282:239 @ 5.370, Border On (wider than 1920)
 
 ;Game Gear, Aspect Ratio: Original for 4:3 PAR
-custom_aspect_ratio_1=10:9       ; 160:144, 10:10 PAR
-custom_aspect_ratio_2=11:9       ; 160:144, 11:10 PAR
+custom_aspect_ratio_2=10:9       ; 160:144, 10:10 PAR
+;custom_aspect_ratio_2=11:9      ; 160:144, 11:10 PAR
 
 [SNES]
 custom_aspect_ratio_1=4:3        ; 256:224 @ 5.370, 7:6 PAR, most games
@@ -164,5 +167,100 @@ custom_aspect_ratio_2=516:355    ; 344:284 @ 6.000, PAL, 6:5 PAR
 
 ; ** ARCADE **
 
-[jtcps1]
-custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040 (not working yet)
+; ** CPS1 **
+
+[1941]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[3wonders]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[captcomm]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[cawing]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[cworld2j]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[dino]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[dynwar]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[ffight]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[forgottn]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[ghouls]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[knights]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[kod]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[mbombrd]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[megaman]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[mercs]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[msword]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[nemo]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[pang3]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[pnickj]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[punisher]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[qad]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[qtono2j]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[sf2]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[sf2ce]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[sf2hf]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[sfzch]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[slammast]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[strider]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[unsquad]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[varth]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[willow]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
+
+[wof]
+custom_aspect_ratio_1=10:7       ; 384:224 @ 8.040, 5:6 PAR (1920:1344)
