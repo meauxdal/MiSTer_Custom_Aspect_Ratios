@@ -3,7 +3,7 @@ Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use
 
 These ratios are intended for use along with vscale_mode=1* in order to avoid inconsistently scaled pixels. This avoids shimmering when scrolling along both the vertical and horizontal axes, usually at the expense of some aspect ratio accuracy.
 
-* Note that the 1080p5x.txt ratios are an exception to this and require vscale_mode=0. See 1080p5x.txt for appropriate .ini settings.
+*Note that the 1080p5x.txt ratios are an exception to this and require vscale_mode=0. See 1080p5x.txt for appropriate .ini settings.
 
 # Updates
 
