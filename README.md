@@ -3,6 +3,10 @@ Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use
 
 These ratios are intended for use along with vscale_mode=1 in order to avoid inconsistently scaled pixels. This avoids shimmering when scrolling along both the vertical and horizontal axes, usually at the expense of some aspect ratio accuracy.
 
+# Updates
+
+Follow [url=https://misterfpga.org/viewtopic.php?f=31&t=1991&p=17826#p17826]this thread[/url] on the MiSTer FPGA forums for updates to these files.
+
 # Instructions
 
 Set vscale_mode=1 either globally or for the relevant core in MiSTer.ini or an alt .ini file.
