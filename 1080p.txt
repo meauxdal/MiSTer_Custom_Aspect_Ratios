@@ -68,10 +68,13 @@ custom_aspect_ratio_1=10:7       ; 320:224 @ 6.700, 4:4 PAR
 ;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
 
 [NES]
-custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, NTSC, 5:4 PAR, Hide Overscan On
-custom_aspect_ratio_2=8:5        ; 256:240 @ 5.320, PAL, 6:4 PAR, Hide Overscan On (wide)
-;custom_aspect_ratio_2=4:3       ; 256:240 @ 6.000, PAL, 5:4 PAR, Hide Overscan On (thin)
-;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, PAL, 4:4 PAR, Hide Overscan On (square)
+;NTSC
+custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, 5:4 PAR, Hide Overscan On
+
+;PAL
+custom_aspect_ratio_2=8:5        ; 256:240 @ 5.320, 6:4 PAR, Hide Overscan On (wide)
+;custom_aspect_ratio_2=4:3       ; 256:240 @ 6.000, 5:4 PAR, Hide Overscan On (thin)
+;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, 4:4 PAR, Hide Overscan On (square)
 
 [Odyssey2]
 custom_aspect_ratio_1=23:12      ; 368:240 @ 5.370, 5:4 PAR
@@ -156,5 +159,101 @@ custom_aspect_ratio_2=344:213    ; 344:284 @ 6.000, PAL, 4:3 PAR
 
 ; ** ARCADE **
 
-[jtcps1]
-custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040 (not working yet)
+; ** CPS1 **
+
+[1941]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[3wonders]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[captcomm]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[cawing]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[cworld2j]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[dino]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[dynwar]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[ffight]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[forgottn]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[ghouls]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[knights]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[kod]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[mbombrd]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[megaman]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[mercs]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[msword]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[nemo]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[pang3]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[pnickj]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[punisher]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[qad]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[qtono2j]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2ce]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2hf]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sfzch]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[slammast]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[strider]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[unsquad]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[varth]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[willow]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[wof]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
