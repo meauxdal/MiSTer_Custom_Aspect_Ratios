@@ -121,18 +121,33 @@ custom_aspect_ratio_1=303:251    ; 404:251 @ 8.190, NTSC, 3:4 PAR
 custom_aspect_ratio_2=37:28      ; 370:280 @ 8.190, PAL, 3:3 PAR
 
 [Minimig]
-;Minimig is weird. These are mostly not working yet.
+; dfilskov ratios are confirmed to work, the others may not work
 
+;PAL 
 ;Video area by: Blank
-;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, NTSC, 2:5 PAR, Fire + Ice
-;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, PAL, 2:4 PAR, Pinball Illusions
+vscale_border=0
+custom_aspect_ratio_1=713:576    ; 713:576 @ 14.32, 1:1 PAR (713:576), Workbench, by dfilskov
 
-custom_aspect_ratio_1=377:241    ; 754:241 @ 14.32, NTSC, 2:4 PAR, by LamerDeluxe
-custom_aspect_ratio_2=29:22      ; 754:572 @ 14.19, PAL, 1:1 PAR, by LamerDeluxe
+;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, 2:4 PAR, Pinball Illusions
+;custom_aspect_ratio_2=29:22     ; 754:572 @ 14.19, 1:1 PAR, by LamerDeluxe
 
+;PAL 
 ;Video area by: Blank+
-;custom_aspect_ratio_1=321:241   ; 642:241 @ 14.32, NTSC, 2:4 PAR, Fire + Ice
-;custom_aspect_ratio_2=254:143   ; 762:286 @ 14.19, PAL, 2:3 PAR, Pinball Illusions (not working)
+;vscale_mode=0
+;vscale_border=254               ; requires vscale_mode=0
+;custom_aspect_ratio_1=160:143   ; 640:572 @ 14.32, 1:1 PAR (640:572), Workbench, by dfilskov (use with vscale_border=254 and vscale_mode=0)
+;custom_aspect_ratio_2=320:143   ; 640:572 @ 7.160, 2:1 PAR (1280:572), Workbench, by dfilskov (wide) (use with vscale_border=254 and vscale_mode=0)
+
+;custom_aspect_ratio_2=254:143   ; 762:286 @ 14.19, 2:3 PAR, Pinball Illusions (not working)
+
+;NTSC
+;Video area by: Blank
+;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, 2:5 PAR, Fire + Ice
+;custom_aspect_ratio_1=377:241   ; 754:241 @ 14.32, 2:4 PAR, by LamerDeluxe
+
+;NTSC
+;Video area by: Blank+
+;custom_aspect_ratio_1=321:241   ; 642:241 @ 14.32, 2:4 PAR, Fire + Ice
 
 [MSX]
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
