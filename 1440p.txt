@@ -150,6 +150,10 @@ custom_aspect_ratio_1=82:55      ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:21     ; 656:192 @ 10.74, Wide Border
 
+[Spectrum]
+custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, PAL, 5:5 PAR
+custom_aspect_ratio_2=516:355    ; 344:284 @ 6.000, PAL, 6:5 PAR
+
 [TRS-80]
 custom_aspect_ratio_1=12:7       ; 384:192 @ 7.383, NTSC, 6:7 PAR (wide)
 custom_aspect_ratio_2=10:7       ; 384:192 @ 8.192, NTSC, 5:7 PAR (thin)
@@ -160,10 +164,6 @@ custom_aspect_ratio_1=5:4        ; 360:288 @ 7.000, PAL, 5:5 PAR
 [VIC20]
 custom_aspect_ratio_1=1632:1205  ; 204:241 @ 4.091, NTSC, 8:5 PAR, by LamerDeluxe
 custom_aspect_ratio_2=228:175    ; 228:280 @ 4.434, PAL, 8:5 PAR, by LamerDeluxe
-
-[ZX-Spectrum]
-custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, PAL, 5:5 PAR
-custom_aspect_ratio_2=516:355    ; 344:284 @ 6.000, PAL, 6:5 PAR
 
 ; ** ARCADE **
 
