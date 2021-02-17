@@ -121,14 +121,12 @@ custom_aspect_ratio_1=303:251    ; 404:251 @ 8.190, NTSC, 3:4 PAR
 custom_aspect_ratio_2=37:28      ; 370:280 @ 8.190, PAL, 4:4 PAR
 
 [Minimig]
-;Minimig is weird. These are mostly not working yet.
-
 ;Video area by: Blank
-;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, NTSC, 2:5 PAR, Fire + Ice (1728:1080, wider than 1600)
-;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, PAL, 2:4 PAR, Pinball Illusions
-
 custom_aspect_ratio_1=377:241    ; 754:241 @ 14.32, NTSC, 2:4 PAR, by LamerDeluxe
 custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR, by LamerDeluxe
+
+;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, NTSC, 2:5 PAR, Fire + Ice (1728:1080, wider than 1600)
+;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, PAL, 2:4 PAR, Pinball Illusions
 
 ;Video area by: Blank+
 ;custom_aspect_ratio_1=321:241   ; 642:241 @ 14.32, NTSC, 2:4 PAR, Fire + Ice
@@ -138,14 +136,22 @@ custom_aspect_ratio_2=29:44      ; 754:572 @ 14.19, PAL, 1:2 PAR, by LamerDeluxe
 custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
 custom_aspect_ratio_2=1196:879   ; 598:293 @ 10.74, Manbow 2
 
+[PET2001]
+;NTSC
+custom_aspect_ratio_1=16:15      ; 320:200 @ 8.190, 4:6 PAR (1280:1200) (thin)
+custom_aspect_ratio_2=4:3        ; 320:200 @ 7.000, 5:6 PAR (1600:1200) (wide)
+;custom_aspect_ratio_2=8:5       ; 320:200 @ 6.000, 6:6 PAR (1920:1200, wider than 1600) (square)
+
 [SAMCoupe]
 custom_aspect_ratio_1=41:33      ; 656:264 @ 10.74, Large Border
 custom_aspect_ratio_2=228:145    ; 608:232 @ 10.74, Small Border
 ;custom_aspect_ratio_2=41:24     ; 656:192 @ 10.74, Wide Border
 
 [Spectrum]
-custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, PAL, 4:4 PAR
-custom_aspect_ratio_2=215:142    ; 344:284 @ 6.000, PAL, 5:4 PAR
+;PAL
+custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, 4:4 PAR (1376:1136)
+custom_aspect_ratio_2=344:283    ; 344:283 @ 7.000, 4:4 PAR (1376:1132)
+;custom_aspect_ratio_2=85:71     ; 340:284 @ 7.000, 4:4 PAR (1360:1136)
 
 [TRS-80]
 custom_aspect_ratio_1=5:3        ; 384:192 @ 7.383, NTSC, 5:6 PAR
