@@ -5,7 +5,286 @@ custom_aspect_ratio_1=63:46      ; 180:230 @ 3.580, 7:4 PAR
 
 [Atari2600]
 ;VBlank: Regenerate, 3.58 MHz pixel clock
+custom_aspect_ratio_1=288:205    ; 160:205, BIOS; ** CONSOLE **
+
+[Astrocade]
+custom_aspect_ratio_1=63:46      ; 180:230 @ 3.580, 7:4 PAR
+
+[Atari2600]
+;VBlank: Regenerate, 3.58 MHz pixel clock
 custom_aspect_ratio_1=288:205    ; 160:205, BIOS
+custom_aspect_ratio_2=144:101    ; 160:202, most games
+;custom_aspect_ratio_2=28:23     ; 160:230, Air Raid
+;custom_aspect_ratio_2=288:203   ; 160:203, Air Raiders
+;custom_aspect_ratio_2=96:67     ; 160:201, Air-Sea Battle
+;custom_aspect_ratio_2=288:197   ; 160:197, Airlock
+;custom_aspect_ratio_2=288:181   ; 160:181, Artillery Duel
+;custom_aspect_ratio_2=36:25     ; 160:200, Assault
+;custom_aspect_ratio_2=24:17     ; 160:204, Astroblast
+;custom_aspect_ratio_2=140:127   ; 160:254, Base Attack
+;custom_aspect_ratio_2=288:191   ; 160:191, Boing!
+;custom_aspect_ratio_2=40:27     ; 160:180, Buck Rogers
+;custom_aspect_ratio_2=3:2       ; 160:192, Chase the Chuckwagon
+;custom_aspect_ratio_2=32:23     ; 160:207, Chuck Norris Superkicks
+;custom_aspect_ratio_2=288:199   ; 160:199, Cosmic Commuter
+;custom_aspect_ratio_2=16:11     ; 160:198, Custer's Revenge
+;custom_aspect_ratio_2=10:9      ; 160:252, Dancing Plate
+;custom_aspect_ratio_2=280:221   ; 160:221, Desert Falcon title screen
+;custom_aspect_ratio_2=14:11     ; 160:220, Desert Falcon gameplay
+;custom_aspect_ratio_2=18:13     ; 160:208, Dice Puzzle
+;custom_aspect_ratio_2=144:103   ; 160:206, Final Approach
+;custom_aspect_ratio_2=288:209   ; 160:209, Go Go Home Monster
+;custom_aspect_ratio_2=288:215   ; 160:215, Hole Hunter
+;custom_aspect_ratio_2=144:97    ; 160:194, James Bond 007
+;custom_aspect_ratio_2=35:33     ; 160:264, Motocross
+;custom_aspect_ratio_2=32:21     ; 160:189, The Music Machine
+
+[Atari5200]
+custom_aspect_ratio_1=89:60      ; 356:240 @ 6.130, 4:4 PAR
+
+[AY-3-8500]
+custom_aspect_ratio_1=711:515    ; 237:206 @ 5.370, 6:5 PAR
+
+[Colecovision]
+;Aspect Ratio: Original for 1:1 PAR
+custom_aspect_ratio_2=4:3        ; 256:192 @ 5.370, 5:5 PAR
+custom_aspect_ratio_2=8:5        ; 256:192 @ 5.370, 6:5 PAR
+
+[Gameboy]
+;Game Boy, treat as 160:144 @ ~6 MHz for square pixels
+;custom_aspect_ratio_1=10:9      ; 160:144 @ 6.000, 7:7 PAR (same as Original)
+
+;Super Game Boy, treat as 256:224 @ ~6 MHz for square pixels
+custom_aspect_ratio_1=8:7        ; 256:224 @ 6.000, 4:4 PAR (160:144)
+custom_aspect_ratio_2=10:7       ; 256:224 @ 5.000, 5:4 PAR (160:144)
+
+[Genesis]
+custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, 5:4 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 4:4 PAR, Border Off (same as 256:224 at 1080p)
+;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
+
+[MegaCD]
+custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, 5:4 PAR, Border Off
+custom_aspect_ratio_2=10:7       ; 320:224 @ 6.700, 4:4 PAR, Border Off (same as 256:224 at 1080p)
+;custom_aspect_ratio_1=350:243   ; 280:243 @ 5.370, Border On
+;custom_aspect_ratio_2=344:243   ; 344:243 @ 6.700, Border On
+
+[NeoGeo]
+custom_aspect_ratio_1=10:7       ; 320:224 @ 6.700, 4:4 PAR
+;custom_aspect_ratio_2=19:14     ; 304:224 @ 6.365 (not necessary)
+
+[NES]
+;NTSC
+custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, 5:4 PAR, Hide Overscan On
+
+;PAL
+custom_aspect_ratio_2=8:5        ; 256:240 @ 5.320, 6:4 PAR, Hide Overscan On (wide)
+;custom_aspect_ratio_2=4:3       ; 256:240 @ 6.000, 5:4 PAR, Hide Overscan On (thin)
+;custom_aspect_ratio_2=16:15     ; 256:240 @ 7.000, 4:4 PAR, Hide Overscan On (square)
+
+[Odyssey2]
+custom_aspect_ratio_1=23:12      ; 368:240 @ 5.370, 5:4 PAR
+
+[SMS]
+;SMS, Aspect Ratio: Original, Border: Off for 1:1 PAR
+;custom_aspect_ratio_1=8:5       ; 256:192 @ 5.370, 6:5 PAR, Border Off
+;custom_aspect_ratio_2=47:32     ; 282:240 @ 5.370, Border On 
+
+;Game Gear, Aspect Ratio: Original for 4:3 PAR
+custom_aspect_ratio_1=10:9       ; 160:144, 7:7 PAR
+custom_aspect_ratio_2=80:63      ; 160:144, 8:7 PAR
+
+[SNES]
+custom_aspect_ratio_1=10:7       ; 256:224 @ 5.370, 5:4 PAR, most games 
+custom_aspect_ratio_2=320:239    ; 256:239 @ 5.370, 5:4 PAR, Dragon Quest V
+;custom_aspect_ratio_2=12:7      ; 512:224 @ 7.383, 3:4 PAR, Secret of Mana (wide)
+;custom_aspect_ratio_2=8:7       ; 512:224 @ 10.74, 2:4 PAR, Secret of Mana (thin)
+;custom_aspect_ratio_2=8:7       ; 512:448 @ 10.74, 2:2 PAR, Radical Psycho Machine Racing (USA) (wide)
+;custom_aspect_ratio_2=4:7       ; 512:448 @ 10.74, 1:2 PAR, Radical Psycho Machine Racing (USA) (thin)
+
+[TGFX16]
+custom_aspect_ratio_1=225:154    ; 270:231 @ 5.370, 5:4 PAR, Overscan Hidden
+custom_aspect_ratio_2=90:77      ; 360:231 @ 7.383, 3:4 PAR, Overscan Hidden, R-Type
+;custom_aspect_ratio_2=90:77     ; 540:231 @ 10.74, 2:4 PAR, Overscan Hidden, Sherlock Holmes Consulting Detective
+;custom_aspect_ratio_1=675:484   ; 270:242 @ 5.370, Overscan Visible
+;custom_aspect_ratio_2=135:121   ; 360:242 @ 7.383, Overscan Visible, R-Type
+;custom_aspect_ratio_2=135:121   ; 540:242 @ 10.74, Overscan Visible, Sherlock Holmes Consulting Detective
+
+[Vectrex]
+custom_aspect_ratio_1=540:719    ; 540:719, 1:1 PAR
+
+; ** COMPUTER **
+
+[ao486]
+custom_aspect_ratio_1=32:25      ; 320:200 @ 7.160, NTSC, 4:5 PAR (CGA)
+custom_aspect_ratio_2=64:35      ; 640:350 @ 7.160, NTSC, 3:3 PAR (EGA) (too wide)
+
+[Atari800]
+custom_aspect_ratio_1=89:60      ; 356:240 @ 6.130, 4:4 PAR
+
+[C64]
+custom_aspect_ratio_1=303:251    ; 404:251 @ 8.190, NTSC, 3:4 PAR
+custom_aspect_ratio_2=37:28      ; 370:280 @ 8.190, PAL, 3:3 PAR
+
+[Minimig]
+;PAL 
+;Video area by: Blank
+vscale_border=0
+custom_aspect_ratio_1=713:576    ; 713:576 @ 14.32, 1:1 PAR (713:576), Workbench, by dfilskov
+
+;custom_aspect_ratio_2=4:3       ; 720:270 @ 14.19, 2:4 PAR, Pinball Illusions
+;custom_aspect_ratio_2=29:22     ; 754:572 @ 14.19, 1:1 PAR, by LamerDeluxe
+
+;PAL 
+;Video area by: Blank+
+;vscale_mode=0
+;vscale_border=254               ; requires vscale_mode=0
+;custom_aspect_ratio_1=160:143   ; 640:572 @ 14.32, 1:1 PAR (640:572), Workbench, by dfilskov (use with vscale_border=254 and vscale_mode=0)
+;custom_aspect_ratio_2=320:143   ; 640:572 @ 7.160, 2:1 PAR (1280:572), Workbench, by dfilskov (wide) (use with vscale_border=254 and vscale_mode=0)
+
+;custom_aspect_ratio_2=254:143   ; 762:286 @ 14.19, 2:3 PAR, Pinball Illusions (not working)
+
+;NTSC
+;Video area by: Blank
+;custom_aspect_ratio_1=8:5       ; 864:216 @ 14.32, 2:5 PAR, Fire + Ice
+;custom_aspect_ratio_1=377:241   ; 754:241 @ 14.32, 2:4 PAR, by LamerDeluxe
+
+;NTSC
+;Video area by: Blank+
+;custom_aspect_ratio_1=321:241   ; 642:241 @ 14.32, 2:4 PAR, Fire + Ice
+
+[MSX]
+custom_aspect_ratio_1=299:242    ; 598:242 @ 10.74
+custom_aspect_ratio_2=1196:879   ; 598:293 @ 10.74, Manbow 2
+
+[PET2001]
+;NTSC
+custom_aspect_ratio_1=32:25      ; 320:200 @ 8.190, 4:5 PAR (1280:1000) (thin)
+custom_aspect_ratio_2=8:5        ; 320:200 @ 6.000, 5:5 PAR (1600:1000) (square)
+
+[SAMCoupe]
+custom_aspect_ratio_1=41:33      ; 656:264 @ 10.74, Large Border
+custom_aspect_ratio_2=38:29      ; 608:232 @ 10.74, Small Border
+;custom_aspect_ratio_2=41:20     ; 656:192 @ 10.74, Wide Border
+
+[Spectrum]
+;PAL
+custom_aspect_ratio_1=86:71      ; 344:284 @ 7.000, 3:3 PAR (1032:852)
+custom_aspect_ratio_2=344:283    ; 344:283 @ 7.000, 3:3 PAR (1032:849)
+;custom_aspect_ratio_2=85:71     ; 340:284 @ 7.000, 3:3 PAR (1020:852)
+
+[TRS-80]
+custom_aspect_ratio_1=8:5        ; 384:192 @ 7.383, NTSC, 4:5 PAR
+
+[TSConf]
+custom_aspect_ratio_1=5:4        ; 360:288 @ 7.000, PAL, 3:3 PAR
+
+[VIC20]
+custom_aspect_ratio_1=306:241    ; 204:241 @ 4.091, NTSC, 6:4 PAR, by LamerDeluxe
+custom_aspect_ratio_2=19:14      ; 228:280 @ 4.434, PAL, 5:3 PAR, by LamerDeluxe
+
+; ** ARCADE **
+
+; ** CPS1 **
+
+[1941]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[3wonders]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[captcomm]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[cawing]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[cworld2j]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[dino]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[dynwar]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[ffight]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[forgottn]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[ghouls]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[knights]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[kod]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[mbombrd]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[megaman]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[mercs]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[msword]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[nemo]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[pang3]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[pnickj]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[punisher]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[qad]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[qtono2j]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2ce]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sf2hf]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[sfzch]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[slammast]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[strider]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[unsquad]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[varth]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[willow]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+[wof]
+custom_aspect_ratio_1=9:7        ; 384:224 @ 8.040, 3:4 PAR (1152:896)
+
+
 custom_aspect_ratio_2=144:101    ; 160:202, most games
 ;custom_aspect_ratio_2=28:23     ; 160:230, Air Raid
 ;custom_aspect_ratio_2=288:203   ; 160:203, Air Raiders
