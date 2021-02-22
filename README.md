@@ -1,4 +1,7 @@
 # MiSTer Custom Aspect Ratios
+
+**Update: Automatic vertical+horizontal integer scaling has been [officially added](https://misterfpga.org/viewtopic.php?p=19033#p19033) to several popular cores. This option will supersede most of the function of this repository in an easier-to-use way, so please prefer this option when possible.**
+
 Drop-in custom aspect ratios for various cores for the MiSTer FPGA platform. Use with vscale_mode=1* for the purpose of achieving both vertical and horizontal integer aspect scaling, minimizing aspect ratio error when possible. Most of these ratios have been generated using Rysha's aspect ratio calculator, converted to a web app by morf77: https://morf77.pythonanywhere.com/ar
 
 These ratios are intended for use along with vscale_mode=1* in order to avoid inconsistently scaled pixels. This avoids shimmering when scrolling along both the vertical and horizontal axes, usually at the expense of some aspect ratio accuracy.
